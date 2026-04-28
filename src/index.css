@@ -1,0 +1,6 @@
+:root {
+  --primary-bgc: #111;
+}
+body {
+  background-color: var(--primary-bgc);
+}

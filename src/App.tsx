@@ -8,13 +8,17 @@ import Main from "./components/main/Main"
 function App() {
 
   return (
-    <>
+    <main>
       <Header />
+      <div className="line" />
       <Hero />
+      <div className="line" />
       <Main />
+      <div className="line" />
       <Contact />
+      <div className="line" />
       <Footer />
-    </>
+    </main>
   )
 }
 

@@ -1,6 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 :root {
-  --primary-bgc: #111;
+  --dark-mode-bgc: #111;
+  --light-mode-bgc: #999;
+  --sec-color: #333;
+  --border: rgba(63, 63, 70, 0.4);
 }
 body {
-  background-color: var(--primary-bgc);
+  background-color: var(--dark-mode-bgc);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+main {
+  border: red 1px solid;
+  width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  border: var(--border);
+}
+.line {
+  border: 2px solid var(--border);
+  margin: 3rem 0;
 }

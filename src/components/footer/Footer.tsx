@@ -4,11 +4,27 @@ import './Footer.css';
 const Footer = () => {
 
     return (
-        <>
+        <footer>
         
-            <h1>footer</h1>
+            <ul>
+                <li>
+                    <a href="">My CV</a>
+                </li>
+
+                 <li>
+                    <a href="">My CV</a>
+                </li>
+
+                 <li>
+                    <a href="">My CV</a>
+                </li>
+            </ul>
+
+            <span>
+                Samer Hajara {Date.now()}
+            </span>
         
-        </>
+        </footer>
     );
 
 };
